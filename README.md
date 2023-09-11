@@ -10,7 +10,7 @@ This involved developing the requirements into a domain model, which could then 
 
 The port object is instantiated with a name and an empty array of ships
 
-Methods: 
+<strong>Methods:</strong>
 
 An addShip() method to add a ship object to the array of ships (called when a ship docks at a particular port)
 
