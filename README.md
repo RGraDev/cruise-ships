@@ -13,6 +13,7 @@ The port object is instantiated with a name and an empty array of ships
 Methods: 
 
 An addShip() method to add a ship object to the array of ships (called when a ship docks at a particular port)
+
 A removeShip() method to remove a ship object from the array of ships (called when a ship sets sail from a particular port)
 
 ### Itinerary 📜
@@ -25,4 +26,5 @@ The ship object is instantiated with an itinerary, a current port (the port in t
 Methods: 
 
 A setSail() method which sets previous port property equal to the current port, and then sets the current port property equal to null
+
 A dock() method which sets the current port property equal to the next port in the itinerary, and adds the ship to that port
