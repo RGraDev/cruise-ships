@@ -14,6 +14,8 @@ This involved developing the requirements into a domain model, which could then 
 * As a port operations manager, So I can best utilise a port, I want a port to keep track of the ships currently docked.
 
 ## Project Structure
+
+```bash
 .
 ├── __tests__
 │   ├── itineary.test.js
@@ -25,6 +27,7 @@ This involved developing the requirements into a domain model, which could then 
     ├── Itinerary.js
     ├── Port.js
     └── Ship.js
+```
 
 The ``__tests__`` directory contains the test suites for each of the 3 classes contained within the ``src`` directory
 
