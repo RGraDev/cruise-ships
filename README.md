@@ -23,7 +23,7 @@ On instantiation, this object is passed an array of Port objects which make up t
 ### Ship 🛳️
 The ship object is instantiated with an itinerary, a current port (the port in the itinerary which exists at index 0), a previous port (set to null), and the current port has the instantiated ship instance added to it.
 
-Methods: 
+<strong>Methods:</strong>
 
 A setSail() method which sets previous port property equal to the current port, and then sets the current port property equal to null
 
