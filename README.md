@@ -1,9 +1,9 @@
-# cruise-ships
+# Cruise Ships
 Cruise Ships OOP/TDD exercise as part of CommandShift Bootcamp Syllabus
 
 The project had the aim of taking some requirements, and translating them into object-oriented code. 
 
-This involved developing the requirements into a domain model, which could then form classes for objects which could interact with eachother.
+This involved developing the requirements into a domain model, which could then be used to form classes for objects which could interact with eachother.
 
 ## Classes
 ### Port 🌊
@@ -28,3 +28,15 @@ Methods:
 A setSail() method which sets previous port property equal to the current port, and then sets the current port property equal to null
 
 A dock() method which sets the current port property equal to the next port in the itinerary, and adds the ship to that port
+
+## Testing
+
+Jest was used as the testing framework, with each class having its own test suite devoted to it
+
+Test doubles were used, to ensure each test suite was testing the functionality and behaviour specific to each particular class. 
+
+The types of test doubles used were: 
+
+* Mocks
+* Spies
+* Stubs
