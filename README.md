@@ -13,6 +13,21 @@ This involved developing the requirements into a domain model, which could then 
 * As a tour representative, So I can decide which destinations passengers visit, I want a ship to take an itinerary which determines at which port it next docks.
 * As a port operations manager, So I can best utilise a port, I want a port to keep track of the ships currently docked.
 
+## Project Structure
+.
+├── __tests__
+│   ├── itineary.test.js
+│   ├── port.test.js
+│   └── ship.test.js
+├── package-lock.json
+├── package.json
+└── src
+    ├── Itinerary.js
+    ├── Port.js
+    └── Ship.js
+
+The ``__tests__`` directory contains the test suites for each of the 3 classes contained within the ``src`` directory
+
 ## Classes
 ### Port 🌊
 
