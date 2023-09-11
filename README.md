@@ -5,7 +5,7 @@ The project had the aim of taking some requirements, and translating them into o
 
 This involved developing the requirements into a domain model, which could then form classes for objects which could interact with eachother.
 
-# Classes
+## Classes
 Port
 
 The port object is instantiated with a name and an empty array of ships
