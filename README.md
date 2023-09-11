@@ -31,7 +31,7 @@ A dock() method which sets the current port property equal to the next port in t
 
 ## Testing
 
-Jest was used as the testing framework, with each class having its own test suite devoted to it
+This project was developed using a test-driven development approach, and Jest was used as the testing framework, with each class having its own test suite devoted to it.
 
 Test doubles were used, to ensure each test suite was testing the functionality and behaviour specific to each particular class. 
 
