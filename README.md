@@ -5,6 +5,14 @@ The project had the aim of taking some requirements, and translating them into o
 
 This involved developing the requirements into a domain model, which could then be used to form classes for objects which could interact with eachother.
 
+## The Requirements
+
+* As a cruise ship captain, So I can get passengers aboard a ship, I want a ship to have a starting port.
+* As a cruise ship captain, So I can get passengers started on their journey, I want a ship to be able to set sail from a port.
+* As a cruise ship captain, So I can get passengers to a new destination, I want a ship to be able to dock at a different port.
+* As a tour representative, So I can decide which destinations passengers visit, I want a ship to take an itinerary which determines at which port it next docks.
+* As a port operations manager, So I can best utilise a port, I want a port to keep track of the ships currently docked.
+
 ## Classes
 ### Port 🌊
 
