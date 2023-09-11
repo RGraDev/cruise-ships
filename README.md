@@ -10,11 +10,11 @@ This involved developing the requirements into a domain model, which could then 
 
 The port object is instantiated with a name and an empty array of ships
 
-<strong>Methods:</strong>
+**Methods:**
 
-An addShip() method to add a ship object to the array of ships (called when a ship docks at a particular port)
+An ``addShip()`` method to add a ship object to the array of ships (called when a ship docks at a particular port)
 
-A removeShip() method to remove a ship object from the array of ships (called when a ship sets sail from a particular port)
+A ``removeShip()`` method to remove a ship object from the array of ships (called when a ship sets sail from a particular port)
 
 ### Itinerary 📜
 
@@ -23,11 +23,11 @@ On instantiation, this object is passed an array of Port objects which make up t
 ### Ship 🛳️
 The ship object is instantiated with an itinerary, a current port (the port in the itinerary which exists at index 0), a previous port (set to null), and the current port has the instantiated ship instance added to it.
 
-<strong>Methods:</strong>
+**Methods:**
 
-A setSail() method which sets previous port property equal to the current port, and then sets the current port property equal to null
+A ``setSail()`` method which sets previous port property equal to the current port, and then sets the current port property equal to null
 
-A dock() method which sets the current port property equal to the next port in the itinerary, and adds the ship to that port
+A ``dock()`` method which sets the current port property equal to the next port in the itinerary, and adds the ship to that port
 
 ## Testing
 
